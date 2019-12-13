@@ -1,4 +1,6 @@
-
+<title>
+  okay
+</title>
 <SCRIPT>
 function passWord() {
 var testV = 1;
@@ -7,7 +9,7 @@ while (testV < 3) {
 if (!pass1)
 history.go(-1);
 if (pass1.toLowerCase() == "tybui") {
-alert('You Got it Right!');
+window.location.replace("/game");
 window.open('game2');
 break;
 }
