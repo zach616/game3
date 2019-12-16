@@ -1,20 +1,17 @@
 <html>
   <head>
-    <title>PASSWORD 2.0</title>
+    <title>PASSWORD</title>
     <style>
     </style>
     <script>
-      function qwerty {
-        var x = document.getElementById(ok).value;
-        if (x="qwerty"){
-          alert("correct");
-        } else {
-          alert("no")
-        }
-      }
+  function validateForm {
+  var x = document.forms["okay"]["okay2"].value;
+  alert(x);
     </script>
   </head>
   <body>
-    <input type="text" id="ok">
-    <button onclick="qwerty">submit</button>
+ <form name="okay" onsubmit="validateForm">
+   <input type="text" name="okay2>
+                            <input type="submit>
+                            </form>
   </body>
